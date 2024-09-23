@@ -1,7 +1,7 @@
 
 ---
 
-# **Fake Currency Detection System Using Machine Learning**
+# **Fake Currency Detection System**
 
 
 
