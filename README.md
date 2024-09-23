@@ -1,13 +1,13 @@
 
 ---
 
-### Project Title: **Fake Currency Detection System Using Machine Learning**
+# **Fake Currency Detection System Using Machine Learning**
 
-### Description:
+
 
 This project focuses on developing an automated system for detecting counterfeit Indian currency notes using advanced image processing and machine learning techniques. It targets common users and small businesses that lack access to expensive currency validation equipment typically found in banks and corporate environments. The system is capable of detecting fake 500 and 2000 rupee notes by analyzing various security features of the currency.
 
-### Technologies and Libraries Used:
+## Technologies and Libraries Used:
 
 - **Programming Language**: Python
 
@@ -23,7 +23,7 @@ This project focuses on developing an automated system for detecting counterfeit
   - **Matplotlib**: For visualization and analysis
   - **Scikit-image**: For SSIM-based similarity scoring
 
-### Key Features:
+## Key Features:
 
 1. **Image Acquisition**: Captures images of currency notes using digital cameras or scanners.
 
@@ -113,7 +113,7 @@ This project focuses on developing an automated system for detecting counterfeit
        panel.image = img
    ```
 
-### Methodology:
+## Methodology:
 
 - **Image Processing Algorithms**:
   
@@ -122,7 +122,7 @@ This project focuses on developing an automated system for detecting counterfeit
   - **Algorithm 2**: Checks the bleed lines on both sides of the currency notes.
   - **Algorithm 3**: Verifies the number panel.
 
-### Results:
+## Results:
 
 - **Accuracy**:
   
@@ -133,7 +133,7 @@ This project focuses on developing an automated system for detecting counterfeit
   
   - Processing time is approximately 5 seconds per note when only final results are displayed, making it a quick and efficient solution for counterfeit detection.
 
-### Conclusion:
+## Conclusion:
 
 The **Fake Currency Detection System** provides an effective, user-friendly, and accurate method for detecting counterfeit currency. By leveraging advanced image processing techniques, the system is capable of validating important security features on Indian currency notes and providing results with high accuracy. This project offers a practical solution for addressing the rising issue of currency counterfeiting in everyday transactions.
 
