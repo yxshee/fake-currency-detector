@@ -30,6 +30,7 @@ This project focuses on developing an automated system for detecting counterfeit
 2. **Pre-processing**: Image resizing, Gaussian blurring, and grayscale conversion are performed to prepare the image for analysis.
 
    ```python
+   
    def preprocess_image(image):
        # Resize image to standard size
        resized_image = cv2.resize(image, (800, 400))
@@ -45,9 +46,9 @@ This project focuses on developing an automated system for detecting counterfeit
    
 3. **Feature Detection and Matching**:
 
-    - **Security Thread**: Uses ORB algorithm for detecting key currency features like the security thread.
-
+    - **Security Thread**: Uses ORB algorithm for detecting key currency features like the security thread. <br>
    ```python
+   
    # ORB feature detection
    orb = cv2.ORB_create()
    keypoints1, descriptors1 = orb.detectAndCompute(image1, None)
@@ -60,8 +61,11 @@ This project focuses on developing an automated system for detecting counterfeit
    ```
    
    - **Bleed Lines**: Detects the presence and count of angular bleed lines in the 500 and 2000 rupee notes.
+     
+     
 
    ```python
+   
    def count_bleed_lines(image):
        # Apply binary threshold
        _, thresh = cv2.threshold(image, 127, 255, cv2.THRESH_BINARY)
@@ -80,9 +84,11 @@ This project focuses on developing an automated system for detecting counterfeit
    
    - **Number Panel**: Verifies the number of characters in the serial number panel on the note.
      
+     
 5. **Image Analysis**: Compares extracted features using SSIM to determine whether the currency is real or fake.
 
     ```python
+    
    from skimage.metrics import structural_similarity as ssim
    
    def compare_images(imageA, imageB):
