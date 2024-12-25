@@ -1,7 +1,7 @@
 
 ---
 
-# **Fake Currency Detection System**
+# **Fake Currency Detector**
 
 
 
