@@ -3,7 +3,7 @@
 
 # **Fake Currency Detector**
 
-
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajF6M3I5cmlmdXhwZHN3bGF3aXRqZnV2amJlbnloNjZ4MTk4emUxaiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/hrQnFqUKTXwSSvH8AI/giphy.gif">
 
 This project focuses on developing an automated system for detecting counterfeit Indian currency notes using advanced image processing and machine learning techniques. It targets common users and small businesses that lack access to expensive currency validation equipment typically found in banks and corporate environments. The system is capable of detecting fake 500 and 2000 rupee notes by analyzing various security features of the currency.
 
