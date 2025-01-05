@@ -1,0 +1,15 @@
+numpy==1.23.5                  # For numerical computations
+opencv-python==4.7.0.72        # For image processing
+scikit-image==0.21.0           # For additional image processing functions (e.g., SSIM)
+matplotlib==3.7.2              # For data visualization
+pandas==1.5.3                  # For data handling and manipulation
+scikit-learn==1.2.2            # For machine learning tasks
+tensorflow==2.13.0             # If deep learning is required for detection
+keras==2.13.1.post1            # If used as part of the TensorFlow framework
+Pillow==9.5.0                  # For image manipulation and reading
+flask==2.3.2                   # For creating a web interface (if applicable)
+flask-cors==3.0.10             # For handling CORS in Flask API
+imutils==0.5.4                 # For additional image utilities (e.g., resizing, rotation)
+pyyaml==6.0                    # For configuration management
+requests==2.31.0               # For handling HTTP requests
+gunicorn==21.2.0               # For deploying the app in production
