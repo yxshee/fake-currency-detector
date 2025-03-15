@@ -10,8 +10,8 @@
 
 | Category              | Technologies & Tools                                                                                     |
 |-----------------------|----------------------------------------------------------------------------------------------------------|
-| **Language**          | <img src="https://img.icons8.com/color/48/000000/python.png" width="20"/> Python 3.10                     |
-| **Environment**       | <img src="https://github.com/user-attachments/assets/2bf65573-08f3-4a25-b272-ebbc123a818a" width="20"/> Jupyter Notebook               |
+| **Language**          |  Python 3.10                     |
+| **Environment**       |Jupyter Notebook               |
 | **Core Libraries**    | <div style="display:flex;gap:10px;">![OpenCV](https://img.icons8.com/color/48/000000/opencv.png) ![NumPy](https://img.icons8.com/color/48/000000/numpy.png) <img width="45" src="https://github.com/user-attachments/assets/f501bee1-4dcb-4bd7-a5e5-2f333195c942" width="20"/></div> |
 | **Specialized Tools** | ORB Feature Matching • SSIM Comparison • Tkinter GUI                                                      |
 
