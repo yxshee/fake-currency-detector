@@ -3,10 +3,7 @@
 # 💵 **Fake Currency Detector** 🔍  
 *Automated Counterfeit Detection for Indian Rupee Notes*  
 
-![Banner](https://via.placeholder.com/800x200/1a237e/ffffff?text=Detect+Fake+Currency+with+AI+%26+Computer+Vision)  
-*(Conceptual banner - replace with project screenshot)*  
 
----
 
 ## 🛠 **Tech Stack**  
 *Built with modern tools and libraries*  
