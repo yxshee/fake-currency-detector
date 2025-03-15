@@ -3,7 +3,7 @@
 # 💵 **Fake Currency Detector** 🔍  
 *Automated Counterfeit Detection for Indian Rupee Notes*  
 
-
+---
 
 ## 🛠 **Tech Stack**  
 *Built with modern tools and libraries*  
