@@ -36,7 +36,7 @@ graph TD
 
 ### ✨ **Feature Highlights**  
 1. **Security Thread Verification**  
-   ![ORB Matching](https://via.placeholder.com/400x200/4CAF50/ffffff?text=ORB+Feature+Matching)  
+
    ```python
    # ORB Feature Detection
    orb = cv2.ORB_create()
@@ -44,7 +44,7 @@ graph TD
    ```
 
 2. **Bleed Line Analysis**  
-   ![Bleed Lines](https://via.placeholder.com/400x200/2196F3/ffffff?text=Angular+Bleed+Line+Detection)  
+
    ```python
    def validate_bleed_lines(image):
        # 🔍 Counts valid angular lines
@@ -68,8 +68,8 @@ graph TD
 | **Detection Accuracy**| 79% ✅     | 83% 🚨     |
 | **Processing Time**   | 4.2s ⏳    | 5.1s ⏳     |
 
-![Accuracy Chart](https://via.placeholder.com/600x300/9C27B0/ffffff?text=Accuracy+Comparison+Chart)  
-*(Conceptual accuracy visualization)*
+
+
 
 ---
 
