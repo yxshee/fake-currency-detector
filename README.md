@@ -3,7 +3,7 @@
 Checks ten printed security features on a photo of an Indian ₹500 or ₹2000 note using classical image processing — ORB feature matching, structural similarity (SSIM), thresholding and contour analysis — and reports which features pass.
 
 <p align="center">
-  <img src="assets/app-screenshot.jpg" alt="The demo app analysing a 500-rupee note: verdict, pass count, a table of the ten feature checks, and the located feature crops" width="800"/>
+  <img src="assets/app-screenshot.png" alt="The demo app analysing a 500-rupee note: verdict, pass count, a table of the ten feature checks, and the located feature crops" width="800"/>
 </p>
 
 It is a study of how far template matching can go on a small set of images, not a tool for deciding whether real money is genuine. See [Limitations](#limitations).
@@ -25,9 +25,11 @@ Check one of the sample notes from the command line:
 python -m fcd detect datasets/500_dataset/500_s1.jpg --denomination 500
 ```
 
+The scores below are from Linux x86-64; other platforms print slightly different decimals (see [Results](#results)).
+
 ```text
- 1. Denomination numeral in Devanagari       PASS  avg SSIM 0.761, max SSIM 0.891
- 2. Ashoka Pillar emblem                     PASS  avg SSIM 0.504, max SSIM 0.535
+ 1. Denomination numeral in Devanagari       PASS  avg SSIM 0.667, max SSIM 0.891
+ 2. Ashoka Pillar emblem                     PASS  avg SSIM 0.683, max SSIM 0.742
  ...
 10. Number panel                             PASS  9 characters detected
 10 / 10 features passed
@@ -71,19 +73,25 @@ A note is reported as "likely genuine" when at least 9 of the 10 features pass, 
 
 | Notes | Genuine classified genuine | Counterfeit classified counterfeit | All correct |
 |---|---|---|---|
-| ₹500 | 9 / 10 | 6 / 6 | 15 / 16 |
+| ₹500 | 8 / 10 | 5 / 6 | 13 / 16 |
 | ₹2000 | 7 / 9 | 5 / 6 | 12 / 15 |
-| All | 16 / 19 (84%) | 11 / 12 (92%) | 27 / 31 (87%) |
+| All | 15 / 19 (79%) | 10 / 12 (83%) | 25 / 31 (81%) |
 
-Each note is analysed in well under a second on a laptop.
+These are the results on Linux x86-64, the platform the tests run on in CI; a test there fails if the table above stops matching what the code produces. Each note is analysed in well under a second.
 
-Read these numbers with two cautions. First, there are only 31 images. Second, this is not a held-out test: the thresholds are hand-set constants and no images were kept aside, so the figures describe how well the method fits this set, not how it would do on new photos. The original report gives 15 of 19 and 10 of 12 for the notebook implementation, which had a scoring bug in the ₹500 path that the package does not reproduce.
+Read these numbers with three cautions.
+
+1. **There are only 31 images.**
+2. **This is not a held-out test.** The thresholds are hand-set constants and no images were kept aside, so the figures describe how well the method fits this set, not how it would do on new photos.
+3. **The result depends on the machine.** The detector is deterministic on any one computer, but OpenCV's floating-point arithmetic differs slightly between CPU architectures, and four of the 31 notes sit close enough to a threshold to flip. On an Apple-silicon Mac the same code classifies 27 of 31 correctly (16 of 19 genuine, 11 of 12 counterfeit). A method this sensitive to rounding is fragile, which is worth knowing before reading anything into a single percentage.
+
+The original report gives the same totals as the Linux run, 15 of 19 and 10 of 12, for the notebook implementation. The notebook for ₹500 notes had a scoring bug that the package does not reproduce, and the report has no per-note results to compare.
 
 ## Limitations
 
 - **It needs a clean, flat, front-on image cropped to the note.** Every search area is a fixed pixel box after resizing. A tilted, folded or loosely cropped photo fails for reasons that have nothing to do with authenticity.
 - **It only looks at printed features visible in an ordinary photo.** It does not examine the watermark, the security thread, colour-shifting ink, microprinting, raised print or anything under ultraviolet light, which is where real authentication happens. Because it only compares printed patterns, a faithful colour print of a genuine note would be expected to pass.
-- **One of the twelve counterfeit samples passes all ten checks.** See `2000_f6` in the results table.
+- **Two of the twelve counterfeit samples are accepted.** `2000_f6` passes all ten checks and `500_f6` passes nine; see the results table.
 - **Two denominations only**, and the ₹2000 note was withdrawn from circulation by the Reserve Bank of India in 2023. It is kept because the original project covered it.
 - **Do not use this to accept or reject real currency.**
 
