@@ -1,0 +1,3384 @@
+{
+  "notes": [
+    {
+      "note": "datasets/500_dataset/500_s1.jpg",
+      "denomination": 500,
+      "label": "real",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.3012386249974952,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.761, max SSIM 0.891",
+          "avg_ssim": 0.7607270853775806,
+          "max_ssim": 0.8911519954235678,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.504, max SSIM 0.535",
+          "avg_ssim": 0.5035881274752888,
+          "max_ssim": 0.5348879209709381,
+          "templates_used": 3
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.732, max SSIM 0.930",
+          "avg_ssim": 0.7324275807451431,
+          "max_ssim": 0.9295078907135851,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.567, max SSIM 0.817",
+          "avg_ssim": 0.5667764230884768,
+          "max_ssim": 0.8167524172187264,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.624, max SSIM 0.929",
+          "avg_ssim": 0.6237803499827836,
+          "max_ssim": 0.929363260696925,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.743, max SSIM 0.863",
+          "avg_ssim": 0.7434642922591637,
+          "max_ssim": 0.8631878461037296,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.568, max SSIM 0.784",
+          "avg_ssim": 0.5675695228696682,
+          "max_ssim": 0.7842044822587674,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.000",
+          "line_count": 5.0
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.000",
+          "line_count": 5.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/500_dataset/500_s2.jpg",
+      "denomination": 500,
+      "label": "real",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.25658237500465475,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.505, max SSIM 0.884",
+          "avg_ssim": 0.5048352304451655,
+          "max_ssim": 0.8840734055096349,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.481, max SSIM 0.790",
+          "avg_ssim": 0.4812299854612383,
+          "max_ssim": 0.7898821587433548,
+          "templates_used": 4
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.675, max SSIM 0.916",
+          "avg_ssim": 0.6746652151671938,
+          "max_ssim": 0.9158863504797102,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.687, max SSIM 0.864",
+          "avg_ssim": 0.6870077249545026,
+          "max_ssim": 0.8640411769797044,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.739, max SSIM 0.806",
+          "avg_ssim": 0.7392542484883005,
+          "max_ssim": 0.8059691798521106,
+          "templates_used": 4
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.551, max SSIM 0.934",
+          "avg_ssim": 0.5508081034703038,
+          "max_ssim": 0.9343732518606919,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.664, max SSIM 0.892",
+          "avg_ssim": 0.663794940237385,
+          "max_ssim": 0.8920252696065883,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.217",
+          "line_count": 5.217391304347826
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.000",
+          "line_count": 5.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/500_dataset/500_s3.jpg",
+      "denomination": 500,
+      "label": "real",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.27177545800077496,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.430, max SSIM 0.940",
+          "avg_ssim": 0.43026275426560695,
+          "max_ssim": 0.9398623887886042,
+          "templates_used": 4
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.592, max SSIM 0.711",
+          "avg_ssim": 0.591506880883964,
+          "max_ssim": 0.7109368121305965,
+          "templates_used": 3
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.683, max SSIM 0.936",
+          "avg_ssim": 0.6827767722776192,
+          "max_ssim": 0.9357121568279246,
+          "templates_used": 5
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.586, max SSIM 0.794",
+          "avg_ssim": 0.5856188435777866,
+          "max_ssim": 0.7944454836394826,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.653, max SSIM 0.847",
+          "avg_ssim": 0.6534084927140454,
+          "max_ssim": 0.8470126326776913,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.565, max SSIM 0.840",
+          "avg_ssim": 0.5649356180532755,
+          "max_ssim": 0.8403165929817752,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.637, max SSIM 0.925",
+          "avg_ssim": 0.6371904958719272,
+          "max_ssim": 0.924684655510731,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.000",
+          "line_count": 5.0
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.200",
+          "line_count": 5.2
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/500_dataset/500_s4.jpg",
+      "denomination": 500,
+      "label": "real",
+      "features_passed": 8,
+      "failed_features": [
+        2,
+        6
+      ],
+      "verdict": "likely counterfeit",
+      "correct": false,
+      "seconds": 0.23100825000437908,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.449, max SSIM 0.827",
+          "avg_ssim": 0.44867664936392754,
+          "max_ssim": 0.8266288700079528,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.338, max SSIM 0.385",
+          "avg_ssim": 0.3380373114149668,
+          "max_ssim": 0.3847992173165774,
+          "templates_used": 4
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.771, max SSIM 0.953",
+          "avg_ssim": 0.7707384885399308,
+          "max_ssim": 0.9525983554868896,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.670, max SSIM 0.856",
+          "avg_ssim": 0.6701890922421607,
+          "max_ssim": 0.8557681737663465,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.568, max SSIM 0.754",
+          "avg_ssim": 0.5680888337645718,
+          "max_ssim": 0.7537391534557712,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.326, max SSIM 0.474",
+          "avg_ssim": 0.3256946268379187,
+          "max_ssim": 0.4740974236858395,
+          "templates_used": 4
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.695, max SSIM 0.957",
+          "avg_ssim": 0.6954217800414358,
+          "max_ssim": 0.9565466126970916,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.174",
+          "line_count": 5.173913043478261
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 4.900",
+          "line_count": 4.9
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/500_dataset/500_s5.jpg",
+      "denomination": 500,
+      "label": "real",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.24791241600178182,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.534, max SSIM 0.863",
+          "avg_ssim": 0.5342744455328549,
+          "max_ssim": 0.8630784010401906,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.457, max SSIM 0.712",
+          "avg_ssim": 0.4565428778435721,
+          "max_ssim": 0.7115623645857131,
+          "templates_used": 4
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.651, max SSIM 0.959",
+          "avg_ssim": 0.6510892396603414,
+          "max_ssim": 0.9593608471720193,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.715, max SSIM 0.913",
+          "avg_ssim": 0.7154129449637859,
+          "max_ssim": 0.9128661978912251,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.711, max SSIM 0.859",
+          "avg_ssim": 0.7110962289218282,
+          "max_ssim": 0.8585043415784128,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.741, max SSIM 0.867",
+          "avg_ssim": 0.7412063519367674,
+          "max_ssim": 0.8671336168707375,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.695, max SSIM 0.961",
+          "avg_ssim": 0.6946337895636874,
+          "max_ssim": 0.9605362902877903,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.087",
+          "line_count": 5.086956521739131
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.050",
+          "line_count": 5.05
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/500_dataset/500_s6.jpg",
+      "denomination": 500,
+      "label": "real",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.24450845799583476,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.451, max SSIM 0.692",
+          "avg_ssim": 0.45115132637304517,
+          "max_ssim": 0.6915804854503633,
+          "templates_used": 5
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.471, max SSIM 0.585",
+          "avg_ssim": 0.47055757877912313,
+          "max_ssim": 0.5851227669860379,
+          "templates_used": 4
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.712, max SSIM 0.788",
+          "avg_ssim": 0.7124032986387189,
+          "max_ssim": 0.7881971035817689,
+          "templates_used": 5
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.624, max SSIM 0.721",
+          "avg_ssim": 0.6241712353347684,
+          "max_ssim": 0.7208268761599882,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.631, max SSIM 0.721",
+          "avg_ssim": 0.6312290629045347,
+          "max_ssim": 0.721147237342673,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.561, max SSIM 0.791",
+          "avg_ssim": 0.5612360010804343,
+          "max_ssim": 0.7905647433519319,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.689, max SSIM 0.763",
+          "avg_ssim": 0.6888838449562315,
+          "max_ssim": 0.7627201305794483,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.130",
+          "line_count": 5.130434782608695
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.200",
+          "line_count": 5.2
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/500_dataset/500_s7.jpg",
+      "denomination": 500,
+      "label": "real",
+      "features_passed": 9,
+      "failed_features": [
+        10
+      ],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.2332850419988972,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.495, max SSIM 0.684",
+          "avg_ssim": 0.49482818049616234,
+          "max_ssim": 0.6842841905937818,
+          "templates_used": 5
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.451, max SSIM 0.739",
+          "avg_ssim": 0.45121900140512705,
+          "max_ssim": 0.7385481722277981,
+          "templates_used": 4
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.720, max SSIM 0.826",
+          "avg_ssim": 0.7199186918067378,
+          "max_ssim": 0.8262933066692844,
+          "templates_used": 5
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.659, max SSIM 0.782",
+          "avg_ssim": 0.6592668059775693,
+          "max_ssim": 0.7822871190441237,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.663, max SSIM 0.773",
+          "avg_ssim": 0.6629540584728423,
+          "max_ssim": 0.773300837770194,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.633, max SSIM 0.693",
+          "avg_ssim": 0.6332621905823878,
+          "max_ssim": 0.6932434078579103,
+          "templates_used": 3
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.706, max SSIM 0.829",
+          "avg_ssim": 0.7057588320813379,
+          "max_ssim": 0.8292317904955411,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.043",
+          "line_count": 5.043478260869565
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.167",
+          "line_count": 5.166666666666667
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": false,
+          "value": "fewer than 9 characters detected",
+          "characters_found": false
+        }
+      ]
+    },
+    {
+      "note": "datasets/500_dataset/500_s8.jpg",
+      "denomination": 500,
+      "label": "real",
+      "features_passed": 9,
+      "failed_features": [
+        2
+      ],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.25671933299599914,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.526, max SSIM 0.713",
+          "avg_ssim": 0.5257555952286176,
+          "max_ssim": 0.7134199050892873,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.302, max SSIM 0.348",
+          "avg_ssim": 0.30225534121810654,
+          "max_ssim": 0.34770499848672615,
+          "templates_used": 2
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.703, max SSIM 0.811",
+          "avg_ssim": 0.7032836769337228,
+          "max_ssim": 0.8105922685737991,
+          "templates_used": 5
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.565, max SSIM 0.810",
+          "avg_ssim": 0.5650755444311494,
+          "max_ssim": 0.8096883533364186,
+          "templates_used": 5
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.654, max SSIM 0.744",
+          "avg_ssim": 0.654411557278412,
+          "max_ssim": 0.7436044166334812,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.546, max SSIM 0.791",
+          "avg_ssim": 0.5464466087182319,
+          "max_ssim": 0.7911108410261055,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.701, max SSIM 0.829",
+          "avg_ssim": 0.7007239818925155,
+          "max_ssim": 0.8289773223474626,
+          "templates_used": 5
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 4.957",
+          "line_count": 4.956521739130435
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.000",
+          "line_count": 5.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/500_dataset/500_s9.jpg",
+      "denomination": 500,
+      "label": "real",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.2527348749936209,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.532, max SSIM 0.730",
+          "avg_ssim": 0.5321957271132871,
+          "max_ssim": 0.7300919847798216,
+          "templates_used": 5
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.645, max SSIM 0.791",
+          "avg_ssim": 0.6448959495551327,
+          "max_ssim": 0.7907557852824584,
+          "templates_used": 4
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.589, max SSIM 0.667",
+          "avg_ssim": 0.5888574420827337,
+          "max_ssim": 0.6666751846457256,
+          "templates_used": 5
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.732, max SSIM 0.851",
+          "avg_ssim": 0.7315237189717444,
+          "max_ssim": 0.8513364334817584,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.730, max SSIM 0.876",
+          "avg_ssim": 0.7296951318966161,
+          "max_ssim": 0.8762476740146014,
+          "templates_used": 5
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.543, max SSIM 0.743",
+          "avg_ssim": 0.5431173039086767,
+          "max_ssim": 0.7430699392673737,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.692, max SSIM 0.799",
+          "avg_ssim": 0.6917235645809154,
+          "max_ssim": 0.7987833226675959,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.130",
+          "line_count": 5.130434782608695
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.000",
+          "line_count": 5.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/500_dataset/500_s10.jpg",
+      "denomination": 500,
+      "label": "real",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.25523379199876217,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.635, max SSIM 0.758",
+          "avg_ssim": 0.6353116224676368,
+          "max_ssim": 0.7575206557268762,
+          "templates_used": 5
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.530, max SSIM 0.755",
+          "avg_ssim": 0.5304633685772119,
+          "max_ssim": 0.7551230814991289,
+          "templates_used": 3
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.653, max SSIM 0.746",
+          "avg_ssim": 0.6525039204906233,
+          "max_ssim": 0.745760515588244,
+          "templates_used": 5
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.640, max SSIM 0.789",
+          "avg_ssim": 0.6395319257498022,
+          "max_ssim": 0.7887087622394344,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.642, max SSIM 0.834",
+          "avg_ssim": 0.6422720880138596,
+          "max_ssim": 0.8339530810753097,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.565, max SSIM 0.626",
+          "avg_ssim": 0.5652896384400465,
+          "max_ssim": 0.6255295790938108,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.626, max SSIM 0.798",
+          "avg_ssim": 0.6258474883033983,
+          "max_ssim": 0.798486569068595,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.000",
+          "line_count": 5.0
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.000",
+          "line_count": 5.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/Fake Notes/500/500_f1.jpg",
+      "denomination": 500,
+      "label": "fake",
+      "features_passed": 7,
+      "failed_features": [
+        1,
+        8,
+        9
+      ],
+      "verdict": "likely counterfeit",
+      "correct": true,
+      "seconds": 0.33078424999985145,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.241, max SSIM 0.292",
+          "avg_ssim": 0.24126649495751948,
+          "max_ssim": 0.291602559781328,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.625, max SSIM 0.821",
+          "avg_ssim": 0.6252306045534741,
+          "max_ssim": 0.8214288391623928,
+          "templates_used": 3
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.603, max SSIM 0.934",
+          "avg_ssim": 0.6030445538657251,
+          "max_ssim": 0.9342279232837021,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.650, max SSIM 0.924",
+          "avg_ssim": 0.6501225397707177,
+          "max_ssim": 0.9243032078301557,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.707, max SSIM 0.789",
+          "avg_ssim": 0.7065769984463568,
+          "max_ssim": 0.7887269608251125,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.566, max SSIM 0.772",
+          "avg_ssim": 0.5662906488040359,
+          "max_ssim": 0.7722292356698466,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.577, max SSIM 0.708",
+          "avg_ssim": 0.5771851943244881,
+          "max_ssim": 0.7084031970440928,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": false,
+          "value": "avg lines 3.000",
+          "line_count": 3.0
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": false,
+          "value": "avg lines 3.467",
+          "line_count": 3.466666666666667
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/Fake Notes/500/500_f2.jpg",
+      "denomination": 500,
+      "label": "fake",
+      "features_passed": 6,
+      "failed_features": [
+        2,
+        6,
+        8,
+        9
+      ],
+      "verdict": "likely counterfeit",
+      "correct": true,
+      "seconds": 0.2367565829990781,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.578, max SSIM 0.924",
+          "avg_ssim": 0.5776794608851114,
+          "max_ssim": 0.9241030425902996,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.334, max SSIM 0.384",
+          "avg_ssim": 0.33409407439031813,
+          "max_ssim": 0.38436861470656614,
+          "templates_used": 5
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.654, max SSIM 0.906",
+          "avg_ssim": 0.6538042389429878,
+          "max_ssim": 0.9055554582413142,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.647, max SSIM 0.914",
+          "avg_ssim": 0.6465226260031782,
+          "max_ssim": 0.9135360089524407,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.515, max SSIM 0.618",
+          "avg_ssim": 0.5147461914265549,
+          "max_ssim": 0.6179667009037471,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.287, max SSIM 0.426",
+          "avg_ssim": 0.28675785576644586,
+          "max_ssim": 0.42645280601604013,
+          "templates_used": 3
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.652, max SSIM 0.921",
+          "avg_ssim": 0.6523879113280788,
+          "max_ssim": 0.92104580699165,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": false,
+          "value": "avg lines 3.087",
+          "line_count": 3.0869565217391304
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": false,
+          "value": "avg lines 3.150",
+          "line_count": 3.15
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/Fake Notes/500/500_f3.jpg",
+      "denomination": 500,
+      "label": "fake",
+      "features_passed": 7,
+      "failed_features": [
+        1,
+        5,
+        8
+      ],
+      "verdict": "likely counterfeit",
+      "correct": true,
+      "seconds": 0.23010595799860312,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.340, max SSIM 0.397",
+          "avg_ssim": 0.3401071904534568,
+          "max_ssim": 0.3965707833478607,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.638, max SSIM 0.739",
+          "avg_ssim": 0.6379258079562105,
+          "max_ssim": 0.7390086243686095,
+          "templates_used": 4
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.728, max SSIM 0.900",
+          "avg_ssim": 0.7282672914716333,
+          "max_ssim": 0.8996184854808597,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.591, max SSIM 0.888",
+          "avg_ssim": 0.5910616690190666,
+          "max_ssim": 0.8880354608758024,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.498, max SSIM 0.559",
+          "avg_ssim": 0.49808032685341086,
+          "max_ssim": 0.558731419331949,
+          "templates_used": 3
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.714, max SSIM 0.878",
+          "avg_ssim": 0.7143004490210496,
+          "max_ssim": 0.8780469386775989,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.596, max SSIM 0.942",
+          "avg_ssim": 0.5957890379100873,
+          "max_ssim": 0.9424785587362903,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": false,
+          "value": "avg lines 3.000",
+          "line_count": 3.0
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.000",
+          "line_count": 5.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/Fake Notes/500/500_f4.jpg",
+      "denomination": 500,
+      "label": "fake",
+      "features_passed": 6,
+      "failed_features": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "verdict": "likely counterfeit",
+      "correct": true,
+      "seconds": 0.3239254579966655,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.292, max SSIM 0.338",
+          "avg_ssim": 0.29180940330836785,
+          "max_ssim": 0.33766875919375394,
+          "templates_used": 5
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.346, max SSIM 0.404",
+          "avg_ssim": 0.34601776036872206,
+          "max_ssim": 0.40396340830260397,
+          "templates_used": 6
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.653, max SSIM 0.914",
+          "avg_ssim": 0.6533710050167328,
+          "max_ssim": 0.9135431259072673,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.666, max SSIM 0.928",
+          "avg_ssim": 0.6658987453329529,
+          "max_ssim": 0.9280168348530331,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.716, max SSIM 0.826",
+          "avg_ssim": 0.7164956023513387,
+          "max_ssim": 0.8255465958684498,
+          "templates_used": 5
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.587, max SSIM 0.749",
+          "avg_ssim": 0.5867577118156834,
+          "max_ssim": 0.7489641945006044,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.635, max SSIM 0.927",
+          "avg_ssim": 0.6349007103241276,
+          "max_ssim": 0.9273732052027571,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": false,
+          "value": "avg lines 3.087",
+          "line_count": 3.0869565217391304
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": false,
+          "value": "avg lines 3.050",
+          "line_count": 3.05
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/Fake Notes/500/500_f5.jpg",
+      "denomination": 500,
+      "label": "fake",
+      "features_passed": 6,
+      "failed_features": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "verdict": "likely counterfeit",
+      "correct": true,
+      "seconds": 0.2299967920043855,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.339, max SSIM 0.395",
+          "avg_ssim": 0.33853748553177637,
+          "max_ssim": 0.39470666142935107,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.387, max SSIM 0.492",
+          "avg_ssim": 0.38656445881867174,
+          "max_ssim": 0.4923483471613879,
+          "templates_used": 5
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.706, max SSIM 0.927",
+          "avg_ssim": 0.7060956387429435,
+          "max_ssim": 0.9268381679777473,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.532, max SSIM 0.887",
+          "avg_ssim": 0.5323370789943537,
+          "max_ssim": 0.8866424407686327,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.497, max SSIM 0.558",
+          "avg_ssim": 0.4965066629794681,
+          "max_ssim": 0.5579628857040514,
+          "templates_used": 3
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.658, max SSIM 0.876",
+          "avg_ssim": 0.6581376814664457,
+          "max_ssim": 0.8760596013588932,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.614, max SSIM 0.958",
+          "avg_ssim": 0.6141310823197578,
+          "max_ssim": 0.957714224436106,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": false,
+          "value": "avg lines 3.000",
+          "line_count": 3.0
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.000",
+          "line_count": 5.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/Fake Notes/500/500_f6.jpg",
+      "denomination": 500,
+      "label": "fake",
+      "features_passed": 8,
+      "failed_features": [
+        1,
+        6
+      ],
+      "verdict": "likely counterfeit",
+      "correct": true,
+      "seconds": 0.2974326249968726,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.367, max SSIM 0.762",
+          "avg_ssim": 0.3671114562659981,
+          "max_ssim": 0.7622153418737979,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.507, max SSIM 0.823",
+          "avg_ssim": 0.5065251513959999,
+          "max_ssim": 0.822993633686719,
+          "templates_used": 5
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.594, max SSIM 0.895",
+          "avg_ssim": 0.5943180534109321,
+          "max_ssim": 0.8948401071938229,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.601, max SSIM 0.861",
+          "avg_ssim": 0.6005626226656765,
+          "max_ssim": 0.8608283505183627,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.632, max SSIM 0.833",
+          "avg_ssim": 0.6316259311938174,
+          "max_ssim": 0.8329793639239772,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.263, max SSIM 0.356",
+          "avg_ssim": 0.2633427272327833,
+          "max_ssim": 0.3555169653829095,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.641, max SSIM 0.924",
+          "avg_ssim": 0.6406118813706129,
+          "max_ssim": 0.9235058609603732,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.000",
+          "line_count": 5.0
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 5.200",
+          "line_count": 5.2
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/2000_dataset/2000_s1.jpg",
+      "denomination": 2000,
+      "label": "real",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.25561937499878695,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.732, max SSIM 0.877",
+          "avg_ssim": 0.7315949525877369,
+          "max_ssim": 0.8767171714282266,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.434, max SSIM 0.837",
+          "avg_ssim": 0.43364979500289,
+          "max_ssim": 0.8366603647006845,
+          "templates_used": 5
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.615, max SSIM 0.917",
+          "avg_ssim": 0.6152137703477069,
+          "max_ssim": 0.9165042087448477,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.679, max SSIM 0.913",
+          "avg_ssim": 0.678608269525058,
+          "max_ssim": 0.9133107465168812,
+          "templates_used": 5
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.645, max SSIM 0.743",
+          "avg_ssim": 0.6450060090054925,
+          "max_ssim": 0.742523095890348,
+          "templates_used": 5
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.551, max SSIM 0.814",
+          "avg_ssim": 0.550762202790131,
+          "max_ssim": 0.8140885304245524,
+          "templates_used": 6
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.512, max SSIM 0.920",
+          "avg_ssim": 0.5120027207627359,
+          "max_ssim": 0.9197648962030491,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.000",
+          "line_count": 7.0
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.000",
+          "line_count": 7.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/2000_dataset/2000_s2.jpg",
+      "denomination": 2000,
+      "label": "real",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.2783143749984447,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.632, max SSIM 0.756",
+          "avg_ssim": 0.6318923801697652,
+          "max_ssim": 0.7561584154234549,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.499, max SSIM 0.764",
+          "avg_ssim": 0.4988684677983539,
+          "max_ssim": 0.7635768683109163,
+          "templates_used": 6
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.547, max SSIM 0.931",
+          "avg_ssim": 0.5469791971809802,
+          "max_ssim": 0.9308363817309921,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.412, max SSIM 0.900",
+          "avg_ssim": 0.41221674712485656,
+          "max_ssim": 0.9004961237306287,
+          "templates_used": 4
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.750, max SSIM 0.855",
+          "avg_ssim": 0.7498922092275228,
+          "max_ssim": 0.8553093421930374,
+          "templates_used": 5
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.445, max SSIM 0.715",
+          "avg_ssim": 0.44452011615755893,
+          "max_ssim": 0.7149757280602115,
+          "templates_used": 6
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.675, max SSIM 0.859",
+          "avg_ssim": 0.6746045689475153,
+          "max_ssim": 0.8593725607197622,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.500",
+          "line_count": 7.5
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.000",
+          "line_count": 7.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/2000_dataset/2000_s3.jpg",
+      "denomination": 2000,
+      "label": "real",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.2621235839978908,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.701, max SSIM 0.885",
+          "avg_ssim": 0.7009431656364208,
+          "max_ssim": 0.8847366363759369,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.506, max SSIM 0.915",
+          "avg_ssim": 0.5058554366325435,
+          "max_ssim": 0.9153630851585934,
+          "templates_used": 6
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.743, max SSIM 0.864",
+          "avg_ssim": 0.74346385452382,
+          "max_ssim": 0.8643098464153206,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.655, max SSIM 0.845",
+          "avg_ssim": 0.6554894061336618,
+          "max_ssim": 0.8446715488470666,
+          "templates_used": 5
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.702, max SSIM 0.903",
+          "avg_ssim": 0.7018147820260628,
+          "max_ssim": 0.9027447320712942,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.512, max SSIM 0.834",
+          "avg_ssim": 0.511978175920439,
+          "max_ssim": 0.8344896780602129,
+          "templates_used": 6
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.714, max SSIM 0.927",
+          "avg_ssim": 0.7139115948061698,
+          "max_ssim": 0.9271503555894273,
+          "templates_used": 5
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.000",
+          "line_count": 7.0
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.000",
+          "line_count": 7.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/2000_dataset/2000_s4.jpg",
+      "denomination": 2000,
+      "label": "real",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.23817075000260957,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.686, max SSIM 0.917",
+          "avg_ssim": 0.685718045999869,
+          "max_ssim": 0.916929647757968,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.536, max SSIM 0.693",
+          "avg_ssim": 0.5363173853713491,
+          "max_ssim": 0.6926514646781143,
+          "templates_used": 6
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.717, max SSIM 0.929",
+          "avg_ssim": 0.716605759008902,
+          "max_ssim": 0.9290506258490518,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.646, max SSIM 0.836",
+          "avg_ssim": 0.646074598435413,
+          "max_ssim": 0.8355200657860561,
+          "templates_used": 5
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.753, max SSIM 0.930",
+          "avg_ssim": 0.7532997828071304,
+          "max_ssim": 0.930200205836373,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.720, max SSIM 0.869",
+          "avg_ssim": 0.7202454779668003,
+          "max_ssim": 0.8687370660864365,
+          "templates_used": 6
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.618, max SSIM 0.911",
+          "avg_ssim": 0.617746055606705,
+          "max_ssim": 0.9113646956054613,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.050",
+          "line_count": 7.05
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.050",
+          "line_count": 7.05
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/2000_dataset/2000_s5.jpg",
+      "denomination": 2000,
+      "label": "real",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.25038654200034216,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.719, max SSIM 0.858",
+          "avg_ssim": 0.7187630077342891,
+          "max_ssim": 0.8577517664284239,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.519, max SSIM 0.892",
+          "avg_ssim": 0.5188974404613904,
+          "max_ssim": 0.8918295937377829,
+          "templates_used": 6
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.643, max SSIM 0.914",
+          "avg_ssim": 0.6427374465330059,
+          "max_ssim": 0.9137591692310421,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.706, max SSIM 0.905",
+          "avg_ssim": 0.7061194339225232,
+          "max_ssim": 0.9049478925702459,
+          "templates_used": 5
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.682, max SSIM 0.899",
+          "avg_ssim": 0.6820739833062189,
+          "max_ssim": 0.8987590974000388,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.611, max SSIM 0.823",
+          "avg_ssim": 0.6110915838607082,
+          "max_ssim": 0.8229810408644667,
+          "templates_used": 6
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.645, max SSIM 0.919",
+          "avg_ssim": 0.6454839883259776,
+          "max_ssim": 0.9191524499007254,
+          "templates_used": 5
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.350",
+          "line_count": 7.35
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.000",
+          "line_count": 7.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/2000_dataset/2000_s6.jpg",
+      "denomination": 2000,
+      "label": "real",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.2446662500005914,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.711, max SSIM 0.890",
+          "avg_ssim": 0.7108514531748262,
+          "max_ssim": 0.8904155665268418,
+          "templates_used": 5
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.623, max SSIM 0.829",
+          "avg_ssim": 0.6225302717909095,
+          "max_ssim": 0.8293936832943631,
+          "templates_used": 6
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.673, max SSIM 0.841",
+          "avg_ssim": 0.6732916250351728,
+          "max_ssim": 0.840725806337116,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.605, max SSIM 0.885",
+          "avg_ssim": 0.6049976233455002,
+          "max_ssim": 0.8847582319332279,
+          "templates_used": 6
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.651, max SSIM 0.725",
+          "avg_ssim": 0.6513583409982407,
+          "max_ssim": 0.7250034758794779,
+          "templates_used": 4
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.435, max SSIM 0.554",
+          "avg_ssim": 0.43515213071015574,
+          "max_ssim": 0.553873470779698,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.613, max SSIM 0.917",
+          "avg_ssim": 0.612958254671382,
+          "max_ssim": 0.9168464900880651,
+          "templates_used": 5
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.250",
+          "line_count": 7.25
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.105",
+          "line_count": 7.105263157894737
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/2000_dataset/2000_s7.jpg",
+      "denomination": 2000,
+      "label": "real",
+      "features_passed": 8,
+      "failed_features": [
+        2,
+        5
+      ],
+      "verdict": "likely counterfeit",
+      "correct": false,
+      "seconds": 0.2702726249990519,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.606, max SSIM 0.746",
+          "avg_ssim": 0.6055528873408309,
+          "max_ssim": 0.7460116728618863,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.378, max SSIM 0.579",
+          "avg_ssim": 0.37757180800547446,
+          "max_ssim": 0.5793318961392371,
+          "templates_used": 6
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.557, max SSIM 0.798",
+          "avg_ssim": 0.556539710832508,
+          "max_ssim": 0.798289030531384,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.702, max SSIM 0.821",
+          "avg_ssim": 0.7022837784165734,
+          "max_ssim": 0.8207174050897139,
+          "templates_used": 5
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.487, max SSIM 0.603",
+          "avg_ssim": 0.4871553937126226,
+          "max_ssim": 0.6029856609781261,
+          "templates_used": 5
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.516, max SSIM 0.887",
+          "avg_ssim": 0.5160489584491419,
+          "max_ssim": 0.8872614060952886,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.608, max SSIM 0.705",
+          "avg_ssim": 0.6083436017182564,
+          "max_ssim": 0.7045423435891797,
+          "templates_used": 5
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.000",
+          "line_count": 7.0
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.100",
+          "line_count": 7.1
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/2000_dataset/2000_s8.jpg",
+      "denomination": 2000,
+      "label": "real",
+      "features_passed": 9,
+      "failed_features": [
+        6
+      ],
+      "verdict": "likely genuine",
+      "correct": true,
+      "seconds": 0.28346479200263275,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.617, max SSIM 0.820",
+          "avg_ssim": 0.6171579138449518,
+          "max_ssim": 0.8203550077584812,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.480, max SSIM 0.613",
+          "avg_ssim": 0.47989318238595485,
+          "max_ssim": 0.6125136027462962,
+          "templates_used": 6
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.632, max SSIM 0.859",
+          "avg_ssim": 0.6319641692969543,
+          "max_ssim": 0.858504138851235,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.679, max SSIM 0.817",
+          "avg_ssim": 0.6789201110699282,
+          "max_ssim": 0.8166927768878025,
+          "templates_used": 5
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.656, max SSIM 0.836",
+          "avg_ssim": 0.6559383981188975,
+          "max_ssim": 0.8364541029321995,
+          "templates_used": 5
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.332, max SSIM 0.674",
+          "avg_ssim": 0.3321121217630323,
+          "max_ssim": 0.6744038984170416,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.621, max SSIM 0.779",
+          "avg_ssim": 0.6213120471751583,
+          "max_ssim": 0.7794310646886636,
+          "templates_used": 5
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 6.857",
+          "line_count": 6.857142857142857
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 6.900",
+          "line_count": 6.9
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/2000_dataset/2000_s9.jpg",
+      "denomination": 2000,
+      "label": "real",
+      "features_passed": 8,
+      "failed_features": [
+        2,
+        10
+      ],
+      "verdict": "likely counterfeit",
+      "correct": false,
+      "seconds": 0.27929787500033854,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.658, max SSIM 0.781",
+          "avg_ssim": 0.6579005903699942,
+          "max_ssim": 0.7812488494022706,
+          "templates_used": 5
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.344, max SSIM 0.690",
+          "avg_ssim": 0.34408342907586725,
+          "max_ssim": 0.6902148132785348,
+          "templates_used": 6
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.537, max SSIM 0.814",
+          "avg_ssim": 0.5369176579818092,
+          "max_ssim": 0.8139331267018108,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.755, max SSIM 0.815",
+          "avg_ssim": 0.7551051991167094,
+          "max_ssim": 0.815300394115567,
+          "templates_used": 5
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.529, max SSIM 0.701",
+          "avg_ssim": 0.5290936196579357,
+          "max_ssim": 0.7006684048316062,
+          "templates_used": 4
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.523, max SSIM 0.750",
+          "avg_ssim": 0.523068430118847,
+          "max_ssim": 0.7502602842501013,
+          "templates_used": 4
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.546, max SSIM 0.764",
+          "avg_ssim": 0.545512967419616,
+          "max_ssim": 0.7641356982735594,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 6.950",
+          "line_count": 6.95
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.000",
+          "line_count": 7.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": false,
+          "value": "fewer than 9 characters detected",
+          "characters_found": false
+        }
+      ]
+    },
+    {
+      "note": "datasets/Fake Notes/2000/2000_f1.jpg",
+      "denomination": 2000,
+      "label": "fake",
+      "features_passed": 7,
+      "failed_features": [
+        2,
+        4,
+        8
+      ],
+      "verdict": "likely counterfeit",
+      "correct": true,
+      "seconds": 0.2869362500059651,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.621, max SSIM 0.861",
+          "avg_ssim": 0.6211913301467816,
+          "max_ssim": 0.8607510113195772,
+          "templates_used": 5
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.246, max SSIM 0.311",
+          "avg_ssim": 0.24630996869947364,
+          "max_ssim": 0.31061245237762614,
+          "templates_used": 5
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.705, max SSIM 0.853",
+          "avg_ssim": 0.7045543714179466,
+          "max_ssim": 0.8528861930902177,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.227, max SSIM 0.246",
+          "avg_ssim": 0.22673791942929003,
+          "max_ssim": 0.24645611886916033,
+          "templates_used": 2
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.715, max SSIM 0.884",
+          "avg_ssim": 0.7150828559416605,
+          "max_ssim": 0.8842747440545513,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.739, max SSIM 0.862",
+          "avg_ssim": 0.7393755482206295,
+          "max_ssim": 0.8624046790280349,
+          "templates_used": 5
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.606, max SSIM 0.912",
+          "avg_ssim": 0.6056304849838129,
+          "max_ssim": 0.9118181710614023,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": false,
+          "value": "avg lines 5.050",
+          "line_count": 5.05
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.050",
+          "line_count": 7.05
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/Fake Notes/2000/2000_f2.jpg",
+      "denomination": 2000,
+      "label": "fake",
+      "features_passed": 7,
+      "failed_features": [
+        2,
+        6,
+        9
+      ],
+      "verdict": "likely counterfeit",
+      "correct": true,
+      "seconds": 0.2249476249999134,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.607, max SSIM 0.947",
+          "avg_ssim": 0.6068603925916333,
+          "max_ssim": 0.9469170244071352,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.357, max SSIM 0.438",
+          "avg_ssim": 0.357491912543653,
+          "max_ssim": 0.4376246812926827,
+          "templates_used": 5
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.575, max SSIM 0.931",
+          "avg_ssim": 0.5753627513245028,
+          "max_ssim": 0.9307635835783629,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.432, max SSIM 0.860",
+          "avg_ssim": 0.4324312312260793,
+          "max_ssim": 0.8597889141050993,
+          "templates_used": 4
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.671, max SSIM 0.944",
+          "avg_ssim": 0.6711629315532373,
+          "max_ssim": 0.9441187975344708,
+          "templates_used": 4
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.200, max SSIM 0.245",
+          "avg_ssim": 0.19974454622191373,
+          "max_ssim": 0.24518149822645138,
+          "templates_used": 3
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.694, max SSIM 0.882",
+          "avg_ssim": 0.6944970582481078,
+          "max_ssim": 0.8816907878522885,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.500",
+          "line_count": 7.5
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": false,
+          "value": "avg lines 5.000",
+          "line_count": 5.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/Fake Notes/2000/2000_f3.jpg",
+      "denomination": 2000,
+      "label": "fake",
+      "features_passed": 7,
+      "failed_features": [
+        1,
+        5,
+        9
+      ],
+      "verdict": "likely counterfeit",
+      "correct": true,
+      "seconds": 0.21962429099949077,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.293, max SSIM 0.327",
+          "avg_ssim": 0.292887644452933,
+          "max_ssim": 0.32726287035484924,
+          "templates_used": 3
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.631, max SSIM 0.858",
+          "avg_ssim": 0.6310975780230356,
+          "max_ssim": 0.857949788610506,
+          "templates_used": 6
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.749, max SSIM 0.920",
+          "avg_ssim": 0.749005783567006,
+          "max_ssim": 0.9197301341700218,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.694, max SSIM 0.866",
+          "avg_ssim": 0.6942467064969546,
+          "max_ssim": 0.8657001322989972,
+          "templates_used": 5
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.449, max SSIM 0.480",
+          "avg_ssim": 0.4494585045296319,
+          "max_ssim": 0.479534048626445,
+          "templates_used": 2
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.490, max SSIM 0.707",
+          "avg_ssim": 0.490454680394109,
+          "max_ssim": 0.7071536288402746,
+          "templates_used": 6
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.699, max SSIM 0.875",
+          "avg_ssim": 0.6985837274430202,
+          "max_ssim": 0.8750985271286554,
+          "templates_used": 4
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.000",
+          "line_count": 7.0
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": false,
+          "value": "avg lines 4.000",
+          "line_count": 4.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/Fake Notes/2000/2000_f4.jpg",
+      "denomination": 2000,
+      "label": "fake",
+      "features_passed": 6,
+      "failed_features": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "verdict": "likely counterfeit",
+      "correct": true,
+      "seconds": 0.27475958300055936,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.661, max SSIM 0.861",
+          "avg_ssim": 0.6607243969622159,
+          "max_ssim": 0.8608129175278151,
+          "templates_used": 5
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.246, max SSIM 0.311",
+          "avg_ssim": 0.24630842620044904,
+          "max_ssim": 0.31058468879125783,
+          "templates_used": 5
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.700, max SSIM 0.853",
+          "avg_ssim": 0.6998012814827193,
+          "max_ssim": 0.8529247004745545,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.227, max SSIM 0.246",
+          "avg_ssim": 0.22673979886533896,
+          "max_ssim": 0.246434208807912,
+          "templates_used": 2
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.713, max SSIM 0.927",
+          "avg_ssim": 0.7127986217699123,
+          "max_ssim": 0.9274118881107387,
+          "templates_used": 6
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.000, max SSIM -1.000",
+          "avg_ssim": 0.0,
+          "max_ssim": -1.0,
+          "templates_used": 0
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.631, max SSIM 0.912",
+          "avg_ssim": 0.6305684827521062,
+          "max_ssim": 0.9118765080285209,
+          "templates_used": 5
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": false,
+          "value": "avg lines 5.050",
+          "line_count": 5.05
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.050",
+          "line_count": 7.05
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/Fake Notes/2000/2000_f5.jpg",
+      "denomination": 2000,
+      "label": "fake",
+      "features_passed": 5,
+      "failed_features": [
+        2,
+        4,
+        6,
+        7,
+        9
+      ],
+      "verdict": "likely counterfeit",
+      "correct": true,
+      "seconds": 0.37664974999643164,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.713, max SSIM 0.907",
+          "avg_ssim": 0.712542321003677,
+          "max_ssim": 0.9068675924696252,
+          "templates_used": 5
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.253, max SSIM 0.361",
+          "avg_ssim": 0.25295926932782564,
+          "max_ssim": 0.36066894706369584,
+          "templates_used": 5
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.708, max SSIM 0.853",
+          "avg_ssim": 0.7079337644802824,
+          "max_ssim": 0.8532012366634453,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.251, max SSIM 0.258",
+          "avg_ssim": 0.2505576100975395,
+          "max_ssim": 0.2576644544435482,
+          "templates_used": 2
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.696, max SSIM 0.733",
+          "avg_ssim": 0.69564729205055,
+          "max_ssim": 0.7330957905986237,
+          "templates_used": 5
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.000, max SSIM -1.000",
+          "avg_ssim": 0.0,
+          "max_ssim": -1.0,
+          "templates_used": 0
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": false,
+          "value": "avg SSIM 0.201, max SSIM 0.201",
+          "avg_ssim": 0.20062420693583996,
+          "max_ssim": 0.20062420693583996,
+          "templates_used": 1
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.250",
+          "line_count": 7.25
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": false,
+          "value": "avg lines 4.250",
+          "line_count": 4.25
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    },
+    {
+      "note": "datasets/Fake Notes/2000/2000_f6.jpg",
+      "denomination": 2000,
+      "label": "fake",
+      "features_passed": 10,
+      "failed_features": [],
+      "verdict": "likely genuine",
+      "correct": false,
+      "seconds": 0.24509054200461833,
+      "features": [
+        {
+          "index": 1,
+          "name": "Denomination numeral in Devanagari",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.755, max SSIM 0.877",
+          "avg_ssim": 0.7545591926958976,
+          "max_ssim": 0.8768934079655264,
+          "templates_used": 6
+        },
+        {
+          "index": 2,
+          "name": "Ashoka Pillar emblem",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.440, max SSIM 0.836",
+          "avg_ssim": 0.4397011473935981,
+          "max_ssim": 0.835822602613489,
+          "templates_used": 5
+        },
+        {
+          "index": 3,
+          "name": "RBI name in Hindi",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.602, max SSIM 0.917",
+          "avg_ssim": 0.6017787978569715,
+          "max_ssim": 0.9170388678479893,
+          "templates_used": 6
+        },
+        {
+          "index": 4,
+          "name": "RBI name in English",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.756, max SSIM 0.848",
+          "avg_ssim": 0.7561337597526225,
+          "max_ssim": 0.8478794067029203,
+          "templates_used": 5
+        },
+        {
+          "index": 5,
+          "name": "Denomination numeral with rupee symbol",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.511, max SSIM 0.597",
+          "avg_ssim": 0.5107305631105983,
+          "max_ssim": 0.5974707956795909,
+          "templates_used": 4
+        },
+        {
+          "index": 6,
+          "name": "RBI seal",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.650, max SSIM 0.888",
+          "avg_ssim": 0.649813312119436,
+          "max_ssim": 0.8881061141675386,
+          "templates_used": 6
+        },
+        {
+          "index": 7,
+          "name": "Denomination in Hindi words",
+          "kind": "ssim",
+          "passed": true,
+          "value": "avg SSIM 0.595, max SSIM 0.920",
+          "avg_ssim": 0.5951409163442969,
+          "max_ssim": 0.9198537948407627,
+          "templates_used": 6
+        },
+        {
+          "index": 8,
+          "name": "Left bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.000",
+          "line_count": 7.0
+        },
+        {
+          "index": 9,
+          "name": "Right bleed lines",
+          "kind": "bleed_lines",
+          "passed": true,
+          "value": "avg lines 7.000",
+          "line_count": 7.0
+        },
+        {
+          "index": 10,
+          "name": "Number panel",
+          "kind": "number_panel",
+          "passed": true,
+          "value": "9 characters detected",
+          "characters_found": true
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "scope": "500",
+      "real_total": 10,
+      "real_classified_genuine": 9,
+      "fake_total": 6,
+      "fake_classified_counterfeit": 6,
+      "correct": 15,
+      "total": 16
+    },
+    {
+      "scope": "2000",
+      "real_total": 9,
+      "real_classified_genuine": 7,
+      "fake_total": 6,
+      "fake_classified_counterfeit": 5,
+      "correct": 12,
+      "total": 15
+    },
+    {
+      "scope": "overall",
+      "real_total": 19,
+      "real_classified_genuine": 16,
+      "fake_total": 12,
+      "fake_classified_counterfeit": 11,
+      "correct": 27,
+      "total": 31
+    }
+  ],
+  "mean_seconds_per_note": 0.26420401609662336
+}
